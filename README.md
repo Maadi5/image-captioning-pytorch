@@ -1,5 +1,5 @@
 # My tweaks:
-ResNet50 (2048 fc.in_features) + Dual Layer LSTM
+ResNet50 (2048 fc.in_features) + Dual Layer + Bidirectional LSTM
 
 
 # image-captioning-pytorch (orig readme)
