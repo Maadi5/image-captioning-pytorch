@@ -1,4 +1,8 @@
-# image-captioning-pytorch
+# My tweaks:
+ResNet50 (20148 fc.in_features) + Bidirectional LSTM
+
+
+# image-captioning-pytorch (orig readme)
 Image Captioning using CNN+RNN Encoder-Decoder Architecture in PyTorch
 
 
