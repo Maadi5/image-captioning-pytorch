@@ -36,7 +36,7 @@ class DecoderRNN(nn.Module):
         self.lstm = nn.LSTM(self.embed_size, 
                             self.hidden_size, 
                             self.num_layers, 
-                            batch_first=True)
+                            batch_first=True, bidirectional= True)
         
         self.fc = nn.Linear(self.hidden_size, self.vocab_size)
 #         self.hidden = (torch.zeros(1, 1, self.hidden_size), torch.zeros(1, 1, self.hidden_size))
