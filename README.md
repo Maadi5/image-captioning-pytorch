@@ -1,6 +1,5 @@
 # My tweaks:
-ResNet50 (2048 fc.in_features) + Dual Layer + Bidirectional LSTM
-
+- ResNet50 (2048 fc.in_features) + Dual Layer + Bidirectional LSTM
 
 # image-captioning-pytorch (orig readme)
 Image Captioning using CNN+RNN Encoder-Decoder Architecture in PyTorch
